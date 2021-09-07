@@ -22,3 +22,7 @@ It correctly bundles in production mode and optimizes the build for the best per
 
 The build is minified<br />
 Your app is ready to be deployed!
+
+### Visit application
+
+https://great-learning-app.netlify.app/
