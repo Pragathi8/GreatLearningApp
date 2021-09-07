@@ -1,0 +1,120 @@
+@media (min-width: 600px) {
+  .main {
+    .header-container {
+      .form-section,
+      .header-content {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .why-great-learning {
+      .features {
+        display: flex;
+      }
+
+      .video-container {
+        width: 60%;
+        margin: 40px auto;
+      }
+    }
+
+    .curriculum-accordian .accordian-container {
+      max-width: 60%;
+      margin: 40px auto;
+    }
+
+    .learning-outcome .container {
+      .content-image {
+        width: 70%;
+        height: 70%;
+        margin: auto;
+      }
+    }
+
+    footer {
+      p {
+        display: inline-flex;
+      }
+    }
+  }
+}
+
+@media (min-width: 801px) {
+  .main {
+    .header-container {
+      flex-direction: row;
+
+      .nav-container {
+        position: absolute;
+      }
+
+      .form-section {
+        order: 2;
+        margin: 50px 20px;
+      }
+
+      .header-content {
+        order: 1;
+        padding: 18% 0% 18% 10%;
+      }
+    }
+
+    .learning-outcome .container {
+      flex-direction: row;
+      margin-top: 40px;
+
+      .content-image {
+        order: 1;
+        width: 50%;
+        height: 50%;
+      }
+    }
+
+    .testimonials {
+      .carousel-container {
+        .slide {
+          max-width: 80%;
+          margin: auto;
+
+          .quote p {
+            position: relative;
+            padding-left: 40px;
+
+            &::before,
+            &::after {
+              font-size: 100px;
+              position: absolute;
+            }
+
+            &::before {
+              content: "\201C";
+              left: 0;
+              bottom: 0px;
+            }
+
+            &::after {
+              content: "\201D";
+              top: 45px;
+            }
+          }
+        }
+
+        .prev,
+        .next {
+          display: block;
+        }
+      }
+
+      .dots {
+        display: none;
+      }
+    }
+
+    .disclaimer {
+      max-width: 80%;
+      margin: auto;
+    }
+  }
+}
